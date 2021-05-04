@@ -34,7 +34,7 @@ export const AuthProvider: FunctionComponent = ({ children }) => {
       .auth()
       .signOut()
       .then(() => {
-        router.push('/yarn.lock');
+        router.push('/');
       })
       .catch(e => console.error(e));
   };
